@@ -66,9 +66,9 @@ This repository contains the CROPIC-AI TRL 4/5 prototype workstream.
 4. Or run full pipeline: `powershell -ExecutionPolicy Bypass -File scripts/run_all_checks.ps1`
 
 ## screenshots
-[!Dashboard](/dashboardimg.jpeg)
-[!Imageupload](/imageupload.jpeg)
-[!Analysis](/analysis.jpeg)
+[Dashboard](/dashboardimg.jpeg)
+[Imageupload](/imageupload.jpeg)
+[Analysis](/analysis.jpeg)
 
 ## Reliability and Governance
 - Uptime watcher: `python scripts/uptime_monitor.py`
