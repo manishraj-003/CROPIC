@@ -243,7 +243,4 @@ https://r.listwr.me/cropwatch-ai
 
 ---
 
-## 👤 Author
-
-**Manish Raj**  
-Aspiring Software Engineer | AI & Systems Builder
+## TEAMNAME: Code INTELLECTS
