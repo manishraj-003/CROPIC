@@ -89,4 +89,4 @@ This repository contains the CROPIC-AI TRL 4/5 prototype workstream.
 - `powershell -ExecutionPolicy Bypass -File scripts/run_all_checks.ps1`
 
 ## Project link
-[ProjectLink](https://r.listwr.me/cropwatch-ai)
+[https://r.listwr.me/cropwatch-ai](https://r.listwr.me/cropwatch-ai)
