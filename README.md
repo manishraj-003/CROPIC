@@ -239,8 +239,8 @@ It combines AI, satellite intelligence, and governance workflows into a TRL 4/5 
 
 ## 🌐 Project Link
 
-https://r.listwr.me/cropwatch-ai  
-
+https://github.com/manishraj-003/CROPIC 
+[CROPIC](https://cropwatch-ai-hub.lovable.app/)
 ---
 
 ## TEAMNAME: Code INTELLECTS
