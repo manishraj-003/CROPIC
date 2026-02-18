@@ -6,23 +6,23 @@
   },
   "results": {
     "health": {
-      "avg_ms": 36.47,
-      "p95_ms": 48.01,
-      "max_ms": 53.28,
+      "avg_ms": 34.14,
+      "p95_ms": 42.94,
+      "max_ms": 54.03,
       "requests": 200,
       "pass_under_2s": true
     },
     "dashboard_summary": {
-      "avg_ms": 63.86,
-      "p95_ms": 77.83,
-      "max_ms": 95.13,
+      "avg_ms": 60.53,
+      "p95_ms": 90.47,
+      "max_ms": 102.38,
       "requests": 200,
       "pass_under_2s": true
     },
     "metadata_upload": {
-      "avg_ms": 88.36,
-      "p95_ms": 106.73,
-      "max_ms": 119.37,
+      "avg_ms": 65.36,
+      "p95_ms": 78.69,
+      "max_ms": 85.84,
       "requests": 200,
       "pass_under_2s": true
     }
