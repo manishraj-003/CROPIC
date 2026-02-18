@@ -65,6 +65,11 @@ This repository contains the CROPIC-AI TRL 4/5 prototype workstream.
 3. Run `python scripts/latency_gate.py` to enforce `<2s` p95 thresholds from the generated report.
 4. Or run full pipeline: `powershell -ExecutionPolicy Bypass -File scripts/run_all_checks.ps1`
 
+## screenshots
+[!Dashboard](/dashboardimg.jpeg)
+[!Imageupload](/imageupload.jpeg)
+[!Analysis](/analysis.jpeg)
+
 ## Reliability and Governance
 - Uptime watcher: `python scripts/uptime_monitor.py`
 - Drift detection: `python scripts/drift_monitor.py`
@@ -82,3 +87,4 @@ This repository contains the CROPIC-AI TRL 4/5 prototype workstream.
 
 ## Full One-Command Checks
 - `powershell -ExecutionPolicy Bypass -File scripts/run_all_checks.ps1`
+
