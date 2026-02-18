@@ -1,0 +1,74 @@
+:root {
+  --bg: #f4f0e7;
+  --panel: #fffdf7;
+  --ink: #1e3527;
+  --muted: #5a6e61;
+  --ok: #2d8c57;
+  --warn: #cb7a2d;
+  --risk: #c74636;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 15% 20%, #fffbe6 0, #f4f0e7 45%, #dce7de 100%);
+  color: var(--ink);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 320px;
+  min-height: 100vh;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid #d8e2d8;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.aside {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.kpi strong {
+  display: block;
+  font-size: 26px;
+}
+
+.map {
+  min-height: 350px;
+  background: linear-gradient(140deg, #d8e7d9, #edf2d8 55%, #c9d7d9);
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

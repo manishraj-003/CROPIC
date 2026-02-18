@@ -13,28 +13,6 @@ This repository contains the CROPIC-AI TRL 4/5 prototype workstream.
 - `infra/`: local infra (docker compose)
 - `docs/execution/`: phase-wise execution trackers and finale runbook
 
-## Judge Brief
-1. Problem: Crop-loss assessment and claim processing are slow, inconsistent, and fraud-prone.
-2. Solution: CROPIC-AI provides guided field capture, AI-based damage quantification, NDVI cross-verification, fraud checks, and insurer dashboard workflows.
-3. Differentiators:
-   - Dual verification: `ground_stress` vs `satellite_ndvi` discrepancy scoring.
-   - Fraud controls: ELA tamper checks plus audit queue escalation.
-   - Inclusivity: multilingual voice report support (11 languages).
-4. Technical evidence (generated reports):
-   - `docs/execution/load_test_report.json`
-   - `docs/execution/success_metrics_report.txt`
-   - `docs/execution/demo_reliability_report.json`
-5. Reproducibility:
-   - `powershell -ExecutionPolicy Bypass -File scripts/run_all_checks.ps1`
-   - `python scripts/summarize_checks.py`
-
-## Submission
-- Upload-ready folder: `submission_package/`
-- Upload-ready archive: `submission_package.zip`
-- Package guide: `submission_package/00_overview/SUBMISSION_GUIDE.md`
-- Architecture snapshot: `submission_package/02_architecture/ARCHITECTURE_SNAPSHOT.md`
-- File manifest: `submission_package/00_overview/PACKAGE_MANIFEST.txt`
-
 ## Backend Quick Run
 1. `cd backend`
 2. `python -m venv .venv`

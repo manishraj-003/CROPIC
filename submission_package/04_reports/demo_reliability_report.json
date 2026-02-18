@@ -1,0 +1,7 @@
+{
+  "runs": 10,
+  "successes": 10,
+  "failures": 0,
+  "success_rate": 1.0,
+  "pass_threshold_0_9": true
+}

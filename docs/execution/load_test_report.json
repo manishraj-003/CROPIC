@@ -1,0 +1,30 @@
+{
+  "config": {
+    "workers": 20,
+    "requests": 200,
+    "threshold_ms": 2000.0
+  },
+  "results": {
+    "health": {
+      "avg_ms": 36.47,
+      "p95_ms": 48.01,
+      "max_ms": 53.28,
+      "requests": 200,
+      "pass_under_2s": true
+    },
+    "dashboard_summary": {
+      "avg_ms": 63.86,
+      "p95_ms": 77.83,
+      "max_ms": 95.13,
+      "requests": 200,
+      "pass_under_2s": true
+    },
+    "metadata_upload": {
+      "avg_ms": 88.36,
+      "p95_ms": 106.73,
+      "max_ms": 119.37,
+      "requests": 200,
+      "pass_under_2s": true
+    }
+  }
+}

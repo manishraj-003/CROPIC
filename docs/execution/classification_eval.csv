@@ -1,0 +1,11 @@
+true_label,pred_label
+wheat,wheat
+paddy,paddy
+cotton,cotton
+soybean,soybean
+wheat,wheat
+paddy,paddy
+cotton,cotton
+soybean,wheat
+wheat,wheat
+paddy,paddy
